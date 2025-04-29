@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
 import { loginUser } from "../services/api"
-import RUETsocialLogo from "../../public/logo.png"
+import RUETsocialLogo from "../assets/logo.png"
 
 const Login = ({ setUser }) => {
   const [formData, setFormData] = useState({
