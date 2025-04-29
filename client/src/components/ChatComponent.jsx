@@ -20,7 +20,7 @@ const ChatComponent = ({ currentUser, recipientUser, onClose }) => {
   const [showOptions, setShowOptions] = useState(false);
 
   useEffect(() => {
-    const newSocket = io("http://localhost:5000", {
+    const newSocket = io(import.meta.env.VITE_API_URL, {
       transports: ["websocket"],
       upgrade: false,
       reconnection: true,
