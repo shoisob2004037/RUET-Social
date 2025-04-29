@@ -6,7 +6,7 @@ const onlineUsers = new Map();
 export const setupSocketServer = (server) => {
   // Define allowed origins for CORS
   const allowedOrigins = [
-    "http://localhost:5173", // Local development
+    "https://ruet-social-web.vercel.app", // Local development
     "http://127.0.0.1:5173", // Local development (optional)
     process.env.FRONTEND_URL, // Deployed frontend URL from .env
   ].filter(Boolean); 
