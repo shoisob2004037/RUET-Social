@@ -13,6 +13,8 @@
     "@tailwindcss/vite": "^4.1.4",
     "axios": "^1.8.4",
     "bootstrap": "^5.3.4",
+    "cloudinary": "^2.6.0",
+    "cloudinary-core": "^2.13.1",
     "cors": "^2.8.5",
     "date-fns": "^4.1.0",
     "lucide-react": "^0.503.0",

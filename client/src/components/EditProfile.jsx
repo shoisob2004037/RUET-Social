@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from "react"
 import { updateUser } from "../services/api"
-import { uploadToCloudinary } from "../utils/cloudinary"
-import LocationAutocomplete from "./LocationAutocomplete"
+import { uploadToCloudinary } from "../utils/Cloudinary.js"
+import LocationAutocomplete from "./LocationAutoComplete.jsx"
 
 const EditProfile = ({ show, onHide, user, onProfileUpdate }) => {
   const [formData, setFormData] = useState({

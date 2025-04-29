@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { updatePost } from "../services/api";
-import { uploadToCloudinary } from "../utils/cloudinary";
+import { uploadToCloudinary } from "../utils/Cloudinary";
 
 const EditPost = ({ show, onHide, post, currentUser, onPostUpdate }) => {
   const [postText, setPostText] = useState(post.desc || "");

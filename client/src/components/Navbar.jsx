@@ -46,7 +46,7 @@ const Navbar = ({ user, setUser }) => {
   useEffect(() => {
     if (!user || !user.user) return
 
-    const newSocket = io("http://localhost:5000", {
+    const newSocket = io(import.meta.env.VITE_API_URL, {
       transports: ["websocket"],
       upgrade: false,
       reconnection: true,

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { createPost } from "../services/api";
-import { uploadToCloudinary } from "../utils/cloudinary";
+import { uploadToCloudinary } from "../utils/Cloudinary";
 
 const CreatePost = ({ user, onPostCreated }) => {
   const [postText, setPostText] = useState("");
