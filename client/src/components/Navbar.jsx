@@ -282,9 +282,8 @@ const Navbar = ({ user, setUser }) => {
               <div className="absolute inset-0   transition-all duration-300 rounded-lg"></div>
               <img
                 src="../../public/logo.png"
-                alt="RUETSocial Logo"
+                alt="RUETSocialLogo"
                 className="h-14 sm:h-16 xs:h-20 w-22 xs:w-30 drop-shadow-md relative z-10 transition-transform group-hover:scale-105 duration-300"
-                onError={(e) => (e.target.src = "https://via.placeholder.com/120x40?text=Logo")}
               />
             </div>
           </Link>
